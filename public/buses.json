@@ -1,0 +1,360 @@
+{
+	"id": "fac4804c-c2fc-4071-8fa1-c329721493aa",
+	"expires": {
+		"date": "2023-11-16 23:59:59.000000",
+		"timezone_type": 2,
+		"timezone": "Z"
+	},
+	"routes": [
+		{
+			"id": "236f0dee-0df0-472a-897b-39192e16c448",
+			"from": {
+				"id": "592ea1b0-836d-498a-8522-c51d81935349",
+				"name": "Tallinn"
+			},
+			"to": {
+				"id": "71112fe0-6c4e-4767-bfba-cde891b7891e",
+				"name": "Rakvere"
+			},
+			"distance": 100,
+			"schedule": [
+				{
+					"id": "addcc334-8406-440a-96c4-1de4e1e62206",
+					"price": 6.3,
+					"start": {
+						"date": "2023-11-16 13:16:24.568765",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 17:16:24.568765",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "0e601ee0-54ac-445a-b08c-454b42424f14",
+						"state": "NoBus"
+					}
+				},
+				{
+					"id": "1bbd127b-1c1e-4045-a606-42ff4ee6f934",
+					"price": 6.5,
+					"start": {
+						"date": "2023-11-16 15:30:24.568781",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 18:17:24.568781",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "23a7ff02-6125-4ad0-b53a-708dd37c0439",
+						"state": "Tiiu Reisid"
+					}
+				},
+				{
+					"id": "bd137cfb-93fa-45b3-97d6-719e78eb2dc8",
+					"price": 8.1,
+					"start": {
+						"date": "2023-11-16 13:55:24.568787",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 16:26:24.568787",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "51f5538d-7758-47ad-8038-a44b24d52281",
+						"state": "Lax Express"
+					}
+				}
+			]
+		},
+		{
+			"id": "bc3073db-4fe1-473b-891f-76dd8ad34236",
+			"from": {
+				"id": "5e2ada4f-a8f5-4dc7-b287-78a5a5fdaca4",
+				"name": "Haapsalu"
+			},
+			"to": {
+				"id": "8da1ef37-5c3c-406c-99e7-653e2f6567b3",
+				"name": "Kuressaare"
+			},
+			"distance": 400,
+			"schedule": [
+				{
+					"id": "16541b10-571a-4319-ab99-3d7a5c003b6e",
+					"price": 26,
+					"start": {
+						"date": "2023-11-16 13:16:24.568802",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 14:44:24.568802",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "23a7ff02-6125-4ad0-b53a-708dd37c0439",
+						"state": "Tiiu Reisid"
+					}
+				},
+				{
+					"id": "6d6d5702-fbe8-4d42-b664-be7d718ea155",
+					"price": 32.4,
+					"start": {
+						"date": "2023-11-16 14:23:24.568807",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 15:41:24.568807",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "51f5538d-7758-47ad-8038-a44b24d52281",
+						"state": "Lax Express"
+					}
+				}
+			]
+		},
+		{
+			"id": "5a02eb31-7b50-411b-b45d-ace30080733c",
+			"from": {
+				"id": "ccf76d73-809f-45b0-9868-2cb68b3bb177",
+				"name": "Tartu"
+			},
+			"to": {
+				"id": "524a6d23-e72d-4efb-8f9a-1f75dbd7da54",
+				"name": "Tallinn"
+			},
+			"distance": 200,
+			"schedule": [
+				{
+					"id": "507e754d-a1c8-4cb1-82c8-fcd793b3455f",
+					"price": 16.2,
+					"start": {
+						"date": "2023-11-16 15:32:24.568820",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 19:22:24.568820",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "51f5538d-7758-47ad-8038-a44b24d52281",
+						"state": "Lax Express"
+					}
+				}
+			]
+		},
+		{
+			"id": "9c6aac8a-f753-452d-81e6-0bdf1561d6ea",
+			"from": {
+				"id": "6f50f869-5e6b-478c-9f2b-4a84891843b0",
+				"name": "Rapla"
+			},
+			"to": {
+				"id": "edd7dd62-24a0-43bf-82a3-c4ded82cc4e4",
+				"name": "Tallinn"
+			},
+			"distance": 80,
+			"schedule": [
+				{
+					"id": "f6b2fcf0-87ba-4e51-b9ec-e9d2c4e96624",
+					"price": 5.2,
+					"start": {
+						"date": "2023-11-16 14:47:24.568831",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 16:29:24.568831",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "23a7ff02-6125-4ad0-b53a-708dd37c0439",
+						"state": "Tiiu Reisid"
+					}
+				},
+				{
+					"id": "54be7f1f-864e-4e35-a8a8-e790f6943172",
+					"price": 5.2,
+					"start": {
+						"date": "2023-11-16 13:32:24.568836",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 14:36:24.568836",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "23a7ff02-6125-4ad0-b53a-708dd37c0439",
+						"state": "Tiiu Reisid"
+					}
+				},
+				{
+					"id": "90706d29-db7d-4de2-addf-dce6b4332d6f",
+					"price": 5.2,
+					"start": {
+						"date": "2023-11-16 13:03:24.568841",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 14:33:24.568841",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "23a7ff02-6125-4ad0-b53a-708dd37c0439",
+						"state": "Tiiu Reisid"
+					}
+				}
+			]
+		},
+		{
+			"id": "3c7cef8c-d803-4d86-a8b1-e76b1c63692b",
+			"from": {
+				"id": "c2627bfb-2ebd-4b84-b8d3-dd29a110a1f2",
+				"name": "Kuressaare"
+			},
+			"to": {
+				"id": "9aae5e5e-6d57-4576-85fb-d6bee2f5d1d6",
+				"name": "Tartu"
+			},
+			"distance": 320,
+			"schedule": [
+				{
+					"id": "ebb24f6e-9de5-473d-b603-55cccb996466",
+					"price": 20.16,
+					"start": {
+						"date": "2023-11-16 14:27:24.568853",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 17:10:24.568853",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "0e601ee0-54ac-445a-b08c-454b42424f14",
+						"state": "NoBus"
+					}
+				},
+				{
+					"id": "e10a9373-852a-405e-b80e-2332d9a88ef4",
+					"price": 20.16,
+					"start": {
+						"date": "2023-11-16 14:50:24.568857",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 18:44:24.568857",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "0e601ee0-54ac-445a-b08c-454b42424f14",
+						"state": "NoBus"
+					}
+				}
+			]
+		},
+		{
+			"id": "2d96cc01-308d-4bb8-aa44-874ec4fa2e75",
+			"from": {
+				"id": "604d18c5-5fb4-41de-8293-6e997c0ab249",
+				"name": "Rapla"
+			},
+			"to": {
+				"id": "20d5f2c3-bab2-4275-ad18-3c4d3abfab65",
+				"name": "Haapsalu"
+			},
+			"distance": 160,
+			"schedule": [
+				{
+					"id": "135e563b-bcdd-4372-818e-5da6120a820d",
+					"price": 12.96,
+					"start": {
+						"date": "2023-11-16 15:08:24.568869",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 17:25:24.568869",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "51f5538d-7758-47ad-8038-a44b24d52281",
+						"state": "Lax Express"
+					}
+				},
+				{
+					"id": "d135232d-26ee-4e99-9672-a7526b57cb73",
+					"price": 10.08,
+					"start": {
+						"date": "2023-11-16 13:45:24.568874",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 16:01:24.568874",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "0e601ee0-54ac-445a-b08c-454b42424f14",
+						"state": "NoBus"
+					}
+				}
+			]
+		},
+		{
+			"id": "6099f8b7-f812-4534-ba8a-553da4b20a01",
+			"from": {
+				"id": "4d2f21ef-2e5c-467f-bddc-515ccfbbe94d",
+				"name": "Tallinn"
+			},
+			"to": {
+				"id": "f9d33a23-7240-4532-95b3-35829c9a66f5",
+				"name": "K\u00e4rdla"
+			},
+			"distance": 210,
+			"schedule": [
+				{
+					"id": "4e43e665-68a4-4f0f-900e-42bb3105c524",
+					"price": 13.65,
+					"start": {
+						"date": "2023-11-16 14:02:24.568884",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"end": {
+						"date": "2023-11-16 17:36:24.568884",
+						"timezone_type": 3,
+						"timezone": "Europe\/Tallinn"
+					},
+					"company": {
+						"id": "23a7ff02-6125-4ad0-b53a-708dd37c0439",
+						"state": "Tiiu Reisid"
+					}
+				}
+			]
+		}
+	]
+}

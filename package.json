@@ -1,0 +1,32 @@
+{
+  "name": "bussi-transport",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "start-server": "node server.js",
+    "dev-server": "concurrently \"npm run dev\" \"npm run start-server\"",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@nextui-org/autocomplete": "^2.0.9",
+    "autoprefixer": "^10.4.16",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "express": "^4.18.2",
+    "next": "^14.0.3",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-bootstrap-typeahead": "^6.3.2",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2"
+  }
+}
